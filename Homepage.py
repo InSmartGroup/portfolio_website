@@ -11,16 +11,15 @@ with column_head_2:
     st.title("Gregory Ostapenko")
     content = """
     Hi, I'm Gregory!
-    I'm a self-taught Python programmer, a huge fan of Computer Vision, Machine Learning, and AI enthusiast.
+    I'm a self-taught Python programmer, a huge fan of Computer Vision, Machine Learning, AI enthusiast.
     This is my portfolio website at which you can find my recent apps.
-    Please feel free to contact me via the 'Contact Me' webpage or by sending me a message on LinkedIn using the link below.
+    Please feel free to contact me via the 'Contact Me' webpage or by sending me a message using the LinkedIn link below.
     """
     st.info(content)
     st.write("[LinkedIn](https://www.linkedin.com/in/gregory-ostapenko)")
 
 # GUI design, the projects
-st.write("Below you can find some of the apps I have built using Python and frameworks, such as OpenCV.")
-st.write("Feel free to contact me using the 'Contact Me' page.")
+st.write("Below you can find some of the apps I have built using Python and OpenCV.")
 
 column_project_1, column_project_2 = st.columns([1, 1])
 
