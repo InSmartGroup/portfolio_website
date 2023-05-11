@@ -1,4 +1,3 @@
-import glob
 import streamlit as st
 
 # GUI design
@@ -25,7 +24,7 @@ st.write("Feel free to contact me using the 'Contact Me' page.")
 
 column_project_1, column_project_2 = st.columns([1, 1])
 
-column_project_1_info, column_project_1_image, \
+column_project_1_info, column_project_1_image,\
 column_project_2_info, column_project_2_image = st.columns([2, 1, 2, 1])
 
 # project 1, image histogram eq project
