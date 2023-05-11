@@ -14,7 +14,7 @@ with column_head_2:
     Hi, I'm Gregory!
     I'm a self-taught Python programmer, a huge fan of Computer Vision, and Machine Learning and AI enthusiast.
     This is my portfolio website at which you can find my recent apps.
-    Please feel free to visit the 'Contact Me' webpage at any time. I'd be happy to hear from you! 
+    Please feel free to contact me via the 'Contact Me' webpage.
     """
     st.info(content)
 
@@ -24,20 +24,21 @@ st.write("Feel free to contact me using the 'Contact Me' page.")
 
 column_project_1, column_project_2 = st.columns([1, 1])
 
-with column_project_1:
-    st.subheader("Image Histogram EQ Web App")
-    content ="""
-    An OpenCV-based web app that provides both automatic and manual CLAHE equalization for color and grayscale images.
-    It also allows the user to see image histograms and how they are changed once processed.
-    """
-    st.info(content)
-    st.image("images/13.png", width=500)
+column_project_1_info, column_project_1_image, \
+column_project_2_info, column_project_2_image = st.columns([2, 1, 2, 1])
 
+# project 1, image histogram eq project
+column_project_1.subheader("Image Histogram EQ Web App")
+column_project_1_info.info("An OpenCV-based web app that provides both automatic and manual CLAHE equalization for color and grayscale images."
+        "It also allows the user to see image histograms and how they are changed once processed.")
+column_project_1_image.image("images/13.png")
 
-with column_project_2:
-    st.subheader("ToDo Web App")
-    content = """
-    A minimalistic web app that allows you to track and manage your daily todos and increase your productivity.
-    """
-    st.info(content)
-    st.image("images/1.png", width=500)
+# project 2, todo app project
+column_project_2.subheader("ToDo Web App")
+column_project_2_info.info("A minimalistic web app that allows you to track and manage your daily todos and increase your productivity.")
+column_project_2_image.image("images/1.png")
+
+column_project_1_info.write("Source code")
+column_project_2_info.write("Source code")
+
+# project 3,
