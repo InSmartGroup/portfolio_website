@@ -11,7 +11,7 @@ with column_head_2:
     st.title("Gregory Ostapenko")
     content = """
     Hi, I'm Gregory!
-    I'm a self-taught Python programmer, a huge fan of Computer Vision, and Machine Learning and AI enthusiast.
+    I'm a self-taught Python programmer, a huge fan of Computer Vision, Machine Learning, and AI enthusiast.
     This is my portfolio website at which you can find my recent apps.
     Please feel free to contact me via the 'Contact Me' webpage.
     """
