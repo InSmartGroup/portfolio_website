@@ -19,7 +19,7 @@ with column_head_2:
     st.write("[LinkedIn](https://www.linkedin.com/in/gregory-ostapenko)")
 
 # GUI design, the projects
-st.write("Below you can find some of the apps I have built using Python and OpenCV.")
+st.write("Below you can find some of the apps I have built using Python and frameworks, such as OpenCV.")
 
 column_project_1, column_project_2 = st.columns([1, 1])
 
