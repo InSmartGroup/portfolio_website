@@ -3,7 +3,7 @@ import streamlit as st
 
 # GUI design
 st.set_page_config(layout='wide')
-column_head_1, column_head_2 = st.columns([1, 3])
+column_head_1, column_head_2 = st.columns([1, 5])
 
 with column_head_1:
     st.image("images/photo.jpg")
@@ -12,9 +12,9 @@ with column_head_2:
     st.title("Gregory Ostapenko")
     content = """
     Hi, I'm Gregory!
-    I'm a self-taught Python programmer, a huge fan of Computer Vision, Machine Learning, and AI enthusiast.
+    I'm a self-taught Python programmer, a huge fan of Computer Vision, and Machine Learning and AI enthusiast.
     This is my portfolio website at which you can find my recent apps.
-    Please feel free to contact me via the 'Contact Me' webpage or by via my LinkedIn below.
+    Please feel free to contact me via the 'Contact Me' webpage.
     """
     st.info(content)
     st.write("[LinkedIn](https://www.linkedin.com/in/gregory-ostapenko)")
