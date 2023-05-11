@@ -29,16 +29,22 @@ column_project_2_info, column_project_2_image = st.columns([2, 1, 2, 1])
 
 # project 1, image histogram eq project
 column_project_1.subheader("Image Histogram EQ Web App")
-column_project_1_info.info("An OpenCV-based web app that provides both automatic and manual CLAHE equalization for color and grayscale images."
-        "It also allows the user to see image histograms and how they are changed once processed.")
+column_project_1_info.info(
+    "An OpenCV-based web app that provides both automatic and manual CLAHE equalization for color and grayscale images."
+    "It also allows the user to see image histograms and how they are changed once processed.")
 column_project_1_image.image("images/13.png")
 
 # project 2, todo app project
 column_project_2.subheader("ToDo Web App")
-column_project_2_info.info("A minimalistic web app that allows you to track and manage your daily todos and increase your productivity.")
+column_project_2_info.info(
+    "A minimalistic web app that allows you to track and manage your daily todos and increase your productivity.")
 column_project_2_image.image("images/1.png")
 
-column_project_1_info.write("Source code")
-column_project_2_info.write("Source code")
+# project 1 and 2 links
+column_project_1.write("[Github source code](https://github.com/InSmartGroup/opencv_image_eq_web_app)")
+column_project_1.write("[Check the app](https://insmartgroup-opencv-image-eq-web-app-main-2ia80q.streamlit.app)")
+
+column_project_2.write("[Github source code](https://github.com/InSmartGroup/ToDos_WebApp)")
+column_project_2.write("[Check the app](https://insmartgroup-todos-webapp-main-wwp7h4.streamlit.app/)")
 
 # project 3,
