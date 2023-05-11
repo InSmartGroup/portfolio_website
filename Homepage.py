@@ -13,7 +13,7 @@ with column_head_2:
     Hi, I'm Gregory!
     I'm a self-taught Python programmer, a huge fan of Computer Vision, Machine Learning, and AI enthusiast.
     This is my portfolio website at which you can find my recent apps.
-    Please feel free to contact me via the 'Contact Me' webpage.
+    Please feel free to contact me via the 'Contact Me' webpage or by sending me a message on LinkedIn using the link below.
     """
     st.info(content)
     st.write("[LinkedIn](https://www.linkedin.com/in/gregory-ostapenko)")
