@@ -2,7 +2,7 @@ import streamlit as st
 
 # GUI design
 st.set_page_config(layout='wide')
-column_head_1, column_head_2 = st.columns([1, 5])
+column_head_1, column_head_2 = st.columns([1, 3])
 
 with column_head_1:
     st.image("images/photo.jpg")
