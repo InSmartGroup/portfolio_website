@@ -40,10 +40,26 @@ column_project_2_info.info(
 column_project_2_image.image("images/1.png")
 
 # project 1 and 2 links
-column_project_1.write("[Github source code](https://github.com/InSmartGroup/opencv_image_eq_web_app)")
-column_project_1.write("[Check the app](https://insmartgroup-opencv-image-eq-web-app-main-2ia80q.streamlit.app)")
+column_project_1_info.write("[Github source code](https://github.com/InSmartGroup/opencv_image_eq_web_app)")
+column_project_1_info.write("[Check the app](https://insmartgroup-opencv-image-eq-web-app-main-2ia80q.streamlit.app)")
 
-column_project_2.write("[Github source code](https://github.com/InSmartGroup/ToDos_WebApp)")
-column_project_2.write("[Check the app](https://insmartgroup-todos-webapp-main-wwp7h4.streamlit.app/)")
+column_project_2_info.write("[Github source code](https://github.com/InSmartGroup/ToDos_WebApp)")
+column_project_2_info.write("[Check the app](https://insmartgroup-todos-webapp-main-wwp7h4.streamlit.app/)")
 
-# project 3,
+
+# new block of projects
+column_project_1, column_project_2 = st.columns([1, 1])
+
+column_project_1_info, column_project_1_image,\
+column_project_2_info, column_project_2_image = st.columns([2, 1, 2, 1])
+
+# project 3, pdf file generator
+column_project_1.subheader("PDF Generator")
+column_project_1_info.info("A script that generates a .pdf workbook from a .csv dataframe")
+column_project_1_image.image("images/3.png")
+
+# project 4,
+
+
+# project 3 and 4 links
+column_project_1_info.write("[Github source code](https://github.com/InSmartGroup/pdf_documents_generation)")
