@@ -21,25 +21,26 @@ with column_head_2:
 # GUI design, the projects
 st.write("Below you can find some of the apps I have built using Python and frameworks, such as OpenCV.")
 
+# block of projects, projects 1 and 2
 column_project_1, column_project_2 = st.columns([1, 1])
 
 column_project_1_info, column_project_1_image,\
 column_project_2_info, column_project_2_image = st.columns([2, 1, 2, 1])
 
-# project 1, image histogram eq project
+# project 1, image histogram eq web app
 column_project_1.subheader("Image Histogram EQ Web App")
 column_project_1_info.info(
     "An OpenCV-based web app that provides both automatic and manual CLAHE equalization for color and grayscale images."
     "It also allows the user to see image histograms and how they are changed once processed.")
 column_project_1_image.image("images/13.png")
 
-# project 2, todo app project
+# project 2, todo app web app
 column_project_2.subheader("ToDo Web App")
 column_project_2_info.info(
     "A minimalistic web app that allows you to track and manage your daily todos and increase the productivity.")
 column_project_2_image.image("images/1.png")
 
-# project 1 and 2 links
+# projects 1 and 2 links
 column_project_1_info.write("[Github source code](https://github.com/InSmartGroup/opencv_image_eq_web_app)")
 column_project_1_info.write("[Check the app](https://insmartgroup-opencv-image-eq-web-app-main-2ia80q.streamlit.app)")
 
@@ -47,7 +48,7 @@ column_project_2_info.write("[Github source code](https://github.com/InSmartGrou
 column_project_2_info.write("[Check the app](https://insmartgroup-todos-webapp-main-wwp7h4.streamlit.app/)")
 
 
-# new block of projects
+# new block of projects, projects 3 and 4
 column_project_1, column_project_2 = st.columns([1, 1])
 
 column_project_1_info, column_project_1_image,\
@@ -58,8 +59,21 @@ column_project_1.subheader("PDF Generator")
 column_project_1_info.info("A script that generates a .pdf workbook from a .csv dataframe")
 column_project_1_image.image("images/3.png")
 
-# project 4,
-
+# project 4, random password generator web app
+column_project_2.subheader("Random Password Generator Web App")
+column_project_2_info.info("A minimalistic web app that allows generating random passwords and saving them locally as text files.")
+column_project_2_image.image("images/17.png")
 
 # project 3 and 4 links
 column_project_1_info.write("[Github source code](https://github.com/InSmartGroup/pdf_documents_generation)")
+column_project_2_info.write("[Github source code](https://github.com/InSmartGroup/random_password_generator_web_app)")
+column_project_2_info.write("[Check the app](https://insmartgroup-random-password-generator-web-app-main-4r305p.streamlit.app/)")
+
+
+# new block of projects, projects 5 and 6
+column_project_1, column_project_2 = st.columns([1, 1])
+
+column_project_1_info, column_project_1_image,\
+column_project_2_info, column_project_2_image = st.columns([2, 1, 2, 1])
+
+# project 5,
