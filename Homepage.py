@@ -76,4 +76,16 @@ column_project_1, column_project_2 = st.columns([1, 1])
 column_project_1_info, column_project_1_image,\
 column_project_2_info, column_project_2_image = st.columns([2, 1, 2, 1])
 
-# project 5,
+# project 5, image color segmentation
+column_project_1.subheader("Image Color Segmentation")
+column_project_1_info.info("A web app that allows the user to segment images by color")
+column_project_1_image.image("images/2.png")
+
+# project 6,
+
+# projects 5 and 6 links
+column_project_1_info.write("[Github source code](https://github.com/InSmartGroup/pdf_documents_generation)")
+column_project_1_info.write("[Check the app](https://insmartgroup-image-color-segmentation-main-urqedq.streamlit.app/)")
+# column_project_2_info.write("[Github source code](https://github.com/InSmartGroup/random_password_generator_web_app)")
+# column_project_2_info.write("[Check the app](https://insmartgroup-random-password-generator-web-app-main-4r305p.streamlit.app/)")
+
